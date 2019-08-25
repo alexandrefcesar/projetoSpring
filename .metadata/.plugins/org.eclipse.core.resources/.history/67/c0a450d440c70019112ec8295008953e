@@ -5,6 +5,7 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
     <meta name="author" content=""/>
     <link rel="icon" href="/image/favicon.png"/>
 
@@ -40,13 +41,13 @@
 	            </ul>
 	
 	            <ul class="nav nav-pills">
-	                <li class="nav-item"><span class="nav-link active">Biblioteca</span></li>
+	                <li class="nav-item"><span class="nav-link active">Departamentos</span></li>
 	                <li class="nav-item"><a class="nav-link"
-	                                        href="/biblioteca/cadastrar"> <i class="oi oi-plus"></i>
+	                                        href="/departamentos/cadastrar"> <i class="oi oi-plus"></i>
 	                    <span>Cadastrar</span>
 	                </a></li>
 	                <li class="nav-item"><a class="nav-link"
-	                                        href="/biblioteca/listar"> <i class="oi oi-spreadsheet"></i>
+	                                        href="/departamentos/listar"> <i class="oi oi-spreadsheet"></i>
 	                    <span>Listar </span>
 	                </a></li>
 	            </ul>
@@ -83,10 +84,10 @@
 	                <ul class="navbar-nav mr-auto">
 	                    <li class="nav-item active">
 	                        <i class="oi oi-caret-right"></i>
-	                        <span>Lista de Bibliotecas</span>
+	                        <span>Lista de Departamentos</span>
 	                    </li>
 	                </ul>
-	                <a class="btn btn-primary btn-md" href="/biblioteca/cadastrar" role="button">
+	                <a class="btn btn-primary btn-md" href="/departamentos/cadastrar" role="button">
 	                    <span class="oi oi-plus" title="Cadastro" aria-hidden="true"></span>
 	                    <span>Novo Departamento</span>
 	                </a>
@@ -109,7 +110,7 @@
 	                        <td>3</td>
 	                        <td>Administração</td>
 	                        <td colspan="2">
-	                            <a class="btn btn-info btn-sm" href="/biblioteca/editar/3" role="button">
+	                            <a class="btn btn-info btn-sm" href="/departamentos/editar/3" role="button">
 	                                <span class="oi oi-brush" title="Editar" aria-hidden="true"></span>
 	                            </a>
 	                            <button id="btn_departamentos/excluir/3" type="button" class="btn btn-danger btn-sm">
@@ -121,7 +122,7 @@
 	                        <td>2</td>
 	                        <td>Contabilidade</td>
 	                        <td colspan="2">
-	                            <a class="btn btn-info btn-sm" href="/biblioteca/editar/2" role="button">
+	                            <a class="btn btn-info btn-sm" href="/departamentos/editar/2" role="button">
 	                                <span class="oi oi-brush" title="Editar" aria-hidden="true"></span>
 	                            </a>
 	                            <button type="button" class="btn btn-danger btn-sm">
@@ -133,7 +134,7 @@
 	                        <td>1</td>
 	                        <td>Recursos Humanos</td>
 	                        <td colspan="2">
-	                            <a class="btn btn-info btn-sm" href="/biblioteca/editar/1" role="button">
+	                            <a class="btn btn-info btn-sm" href="/departamentos/editar/1" role="button">
 	                                <span class="oi oi-brush" title="Editar" aria-hidden="true"></span>
 	                            </a>
 	                            <button type="button" class="btn btn-danger btn-sm" >
@@ -145,7 +146,7 @@
 	                        <td>4</td>
 	                        <td>Tecnologia da Informação</td>
 	                        <td colspan="2">
-	                            <a class="btn btn-info btn-sm" href="/biblioteca/editar/4" role="button">
+	                            <a class="btn btn-info btn-sm" href="/departamentos/editar/4" role="button">
 	                                <span class="oi oi-brush" title="Editar" aria-hidden="true"></span>
 	                            </a>
 	                            <button type="button" class="btn btn-danger btn-sm" >

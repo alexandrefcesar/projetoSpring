@@ -133,7 +133,7 @@
 	                        <td>1</td>
 	                        <td>Recursos Humanos</td>
 	                        <td colspan="2">
-	                            <a class="btn btn-info btn-sm" href="/biblioteca/editar/1" role="button">
+	                            <a class="btn btn-info btn-sm" href="/departamentos/editar/1" role="button">
 	                                <span class="oi oi-brush" title="Editar" aria-hidden="true"></span>
 	                            </a>
 	                            <button type="button" class="btn btn-danger btn-sm" >
@@ -145,7 +145,7 @@
 	                        <td>4</td>
 	                        <td>Tecnologia da Informação</td>
 	                        <td colspan="2">
-	                            <a class="btn btn-info btn-sm" href="/biblioteca/editar/4" role="button">
+	                            <a class="btn btn-info btn-sm" href="/departamentos/editar/4" role="button">
 	                                <span class="oi oi-brush" title="Editar" aria-hidden="true"></span>
 	                            </a>
 	                            <button type="button" class="btn btn-danger btn-sm" >

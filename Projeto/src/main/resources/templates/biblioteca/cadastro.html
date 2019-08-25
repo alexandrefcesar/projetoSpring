@@ -42,13 +42,13 @@
 	            </ul>
 	
 	            <ul class="nav nav-pills">
-	                <li class="nav-item"><span class="nav-link active">Departamentos</span></li>
+	                <li class="nav-item"><span class="nav-link active">Biblioteca</span></li>
 	                <li class="nav-item"><a class="nav-link"
-	                                        href="/departamentos/cadastrar"> <i class="oi oi-plus"></i>
+	                                        href="/biblioteca/cadastrar"> <i class="oi oi-plus"></i>
 	                    <span>Cadastrar</span>
 	                </a></li>
 	                <li class="nav-item"><a class="nav-link"
-	                                        href="/departamentos/listar"> <i class="oi oi-spreadsheet"></i>
+	                                        href="/biblioteca/listar"> <i class="oi oi-spreadsheet"></i>
 	                    <span>Listar </span>
 	                </a></li>
 	            </ul>
@@ -85,23 +85,23 @@
 	                <ul class="navbar-nav mr-auto">
 	                    <li class="nav-item active">
 	                        <i class="oi oi-caret-right"></i>
-	                        <span>Cadastrar Departamentos</span>
+	                        <span>Cadastrar Livros da Biblioteca</span>
 	                    </li>
 	                </ul>
-	                <a class="btn btn-primary btn-md" href="/departamentos/listar" role="button">
+	                <a class="btn btn-primary btn-md" href="/biblioteca/listar" role="button">
 	                    <span class="oi oi-spreadsheet" title="Listar" aria-hidden="true"></span>
-	                    <span>Listar Departamentos</span>
+	                    <span>Listar Livros</span>
 	                </a>
 	            </div>
 	        </nav>
 	
 	        <div class="container" id="cadastro">
-	            <form action="/departamentos/salvar" method="POST">
+	            <form action="/biblioteca/salvar" method="POST">
 	                <div class="form-row">
 	                    <div class="form-group col-md-6">
-	                        <label for="nome">Departamento</label>
+	                        <label for="nome">Procurar livro</label>
 	                        <input type="text" class="form-control" id="nome"
-	                               placeholder="Nome Departamento" autofocus="autofocus" name="nome" value=""/>
+	                               placeholder="Nome do Livro" autofocus="autofocus" name="nome" value=""/>
 	                    </div>
 	                </div>
 	                <input type="hidden" id="id" name="id" value=""/>

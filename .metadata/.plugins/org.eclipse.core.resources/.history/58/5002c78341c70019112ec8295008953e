@@ -15,7 +15,7 @@ public class BibliotecaController {
 
 	@GetMapping("/listar")
 	public String listar() {
-		return "/biblioteca/lista";
+		return "/biblioteca/listar";
 	}
 
 }
